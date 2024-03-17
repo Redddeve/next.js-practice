@@ -1,5 +1,5 @@
 import React from 'react';
-import SideNav from './sidenav';
+import SideNav from '../ui/dashboard/sidenav';
 
 export interface LayoutProps {
   children: React.ReactNode;
