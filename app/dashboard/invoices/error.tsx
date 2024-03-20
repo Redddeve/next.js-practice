@@ -1,7 +1,5 @@
 'use client';
 
-import { useEffect } from 'react';
-
 interface ErrorProps {
   error: Error & { digest?: string };
   reset: () => void;
