@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   },
   description: 'The official Next.js Learn Dashboard built with App Router.',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  generator: 'Next.js',
+  applicationName: 'Acme Dashboard',
+  keywords: ['Next.js', 'React', 'JavaScript'],
 };
 
 interface RootLayoutProps {
